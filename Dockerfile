@@ -1,4 +1,4 @@
-FROM wordpress:4.9.0-php5.6-apache
+FROM wordpress:4.9.1-php7.2-apache
 
 # Install ModSecurity
 RUN set -ex; \
